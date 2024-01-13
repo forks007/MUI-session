@@ -2,7 +2,12 @@
   background-color: #eeeeee;
 } */
 .App {
-  margin: 4rem;
+  /* margin: 4rem; */
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  /* overflowY: , scrollSnapType: "y mandatory"  */
 }
 
 .App-logo {

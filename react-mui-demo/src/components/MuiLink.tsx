@@ -1,17 +1,18 @@
-import { Stack, Link, Typography } from '@mui/material'
+import { Stack, Link, Typography } from "@mui/material";
 
 export const MuiLink = () => {
   return (
-    <Stack spacing={2} m={4} direction='row'>
-      <Typography variant='h6'>
-        <Link href='#'>Link</Link>
+    <Stack spacing={2} m={4} direction="row">
+      <Typography variant="h6">
+        <Link href="#">Link</Link>
       </Typography>
-      <Link href='#' color='secondary' underline='hover'>
+      {/* underline- "hover","none" */}
+      <Link href="#" color="secondary" underline="hover">
         Secondary
       </Link>
-      <Link href='#' variant='body2' underline='none'>
+      <Link href="#" variant="body2" underline="none">
         Body 2 link
       </Link>
     </Stack>
-  )
-}
+  );
+};
